@@ -20,10 +20,25 @@ body {
 
 .list {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .link {
   text-decoration: none;
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  outline: 1px solid tomato;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 /* -------------------------Header------------------ */
@@ -45,7 +60,6 @@ body {
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
-
 
 .active-nav {
   color: var(--btnbgd-linkactive-color);
@@ -73,10 +87,13 @@ body {
 /* ------------------------Main ---------------------*/
 /* Hero */
 .hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: var(--hero-footer-bgd-color);
 }
 
 .hero-title {
+  padding-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -85,9 +102,16 @@ body {
   text-transform: uppercase;
 
   color: var(--herobtntext-primbgd-color);
+
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .hero-button {
+  min-width: 216px;
+  height: 50px;
+  padding: 10px 10px;
+  text-align: center;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -125,37 +149,69 @@ body {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 
 .features-text {
   line-height: 1.71;
   color: var(--secondery-text-color);
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /* Applications */
+.applications {
+  padding-top: 0;
+}
+
+.apps {
+  /* margin-bottom: 50px; */
+}
+
 .apps,
-.team {
+.team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
+
+  margin-top: 0;
+  margin-bottom: 50px;
 }
 
 /* Team */
+.team {
+  background-color: var(--filter-btn-bgd-color);
+}
+
+.team-card {
+  padding-bottom: 30px;
+}
+
 .team-member {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
+
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .team-position {
   font-size: 16px;
   line-height: 1.19;
   color: var(--secondery-text-color);
+
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /* ------------------------Footer--------------------- */
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: var(--hero-footer-bgd-color);
 }
 
