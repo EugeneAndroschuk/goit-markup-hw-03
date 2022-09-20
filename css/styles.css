@@ -28,8 +28,14 @@ body {
   text-decoration: none;
 }
 
+img {
+  display: block;
+}
+
 .container {
-  width: 1200px;
+  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -94,10 +100,14 @@ body {
 
 .hero-title {
   padding-bottom: 30px;
+  max-width: 696px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
@@ -108,10 +118,14 @@ body {
 }
 
 .hero-button {
-  min-width: 216px;
+  box-sizing: border-box;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 216px;
   height: 50px;
   padding: 10px 10px;
-  text-align: center;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -121,6 +135,7 @@ body {
   background-color: var(--btnbgd-linkactive-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border-color: transparent;
 }
 
 .hero-button:hover,
@@ -246,6 +261,11 @@ body {
 /* -------------------------------------------------- */
 
 /* Main */
+
+.filter {
+  margin-bottom: 50px;
+}
+
 .filter-button {
   font-family: inherit;
   font-weight: 500;
@@ -276,10 +296,15 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--primary-text-color);
+  margin-top: 20px;
+  margin-bottom: 4px;
+
 }
 
 .product-text {
   font-size: 16px;
   line-height: 1.88;
   color: var(--secondery-text-color);
+  margin-top: 0;
+  margin-bottom: 0;
 }
