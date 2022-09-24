@@ -89,6 +89,7 @@ img {
 }
 
 .header-nav {
+  padding: 32px 0;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -115,6 +116,7 @@ img {
 
 .header-tel,
 .header-mail {
+  padding: 32px 0;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -202,14 +204,8 @@ img {
 }
 
 .features-item {
-  /* width: 270px; */
   width: calc((100% - 90px) / 4);
-  /* margin-right: 30px; */
 }
-
-/* .features-item:last-child {
-  margin-right: 0;
-} */
 
 .features-title {
   text-align: left;
@@ -267,11 +263,16 @@ img {
 
 .team-card {
   width: calc((100% - 90px) / 4);
-  padding-bottom: 30px;
 
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+
+  background-color: var(--herobtntext-primbgd-color);
+}
+
+.team-description {
+  padding: 30px;
 }
 
 .team-member {
@@ -279,7 +280,7 @@ img {
   font-size: 16px;
   line-height: 1.19;
 
-  margin-top: 30px;
+  margin-top: 0;
   margin-bottom: 10px;
 }
 
